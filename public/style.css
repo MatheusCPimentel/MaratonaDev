@@ -95,6 +95,10 @@ form button {
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 main .donors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
